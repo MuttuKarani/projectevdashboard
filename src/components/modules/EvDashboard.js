@@ -15,10 +15,10 @@ import {
   faIndustry,
   faTachometerAlt,
 } from "@fortawesome/free-solid-svg-icons";
-import { Button, Form } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 
 const EvDashboard = () => {
-  const [evData, setEvData] = useState([]);
+  //   const [evData, setEvData] = useState([]);
   const [error, setError] = useState(null);
   const [useD3, setUseD3] = useState(false);
   const [evByYear, setEvByYear] = useState({});
